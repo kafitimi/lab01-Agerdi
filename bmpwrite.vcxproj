@@ -144,6 +144,16 @@
   <ItemGroup>
     <ClCompile Include="bmpwrite.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="color3x3.bmp" />
+    <Image Include="color3x3.txt.bmp" />
+    <Image Include="gray3x3.bmp" />
+    <Image Include="gray3x3.txt.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="color3x3.txt" />
+    <Text Include="gray3x3.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
